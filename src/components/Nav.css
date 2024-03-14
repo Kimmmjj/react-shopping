@@ -1,0 +1,36 @@
+nav {
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem 1.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+    gap: 10px;
+  }
+.shop-title {
+    font-size: 2rem;
+  }
+
+.nav-right .logout-button {
+    background-image: url("./../images/nav-logout.png");
+  }
+  
+.nav-right .login-button {
+    background-image: url("./../images/nav-login.png");
+  }
+  
+.nav-right .cart-button {
+    background-image: url("./../images/nav-cart.png");
+  }
+  
+.nav-right .user-button {
+    background-image: url("./../images/nav-user.png");
+  }
+  
